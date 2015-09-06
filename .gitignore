@@ -1,0 +1,9 @@
+lib/
+include/
+bin/
+local/
+*~
+*.pyc
+*.sqlite3
+pip-selfcheck.json
+.ipynb_checkpoints/
