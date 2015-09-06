@@ -31,7 +31,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/1.8/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'r#^6uprrxx=ak341fyod0(7on5fj%l_z1)b&yp5(a6)+-%#o5f'
+SECRET_KEY = 'r#^6uprrxx=ak341fyod0(7on5fj%l_z1)b&yp5(a6)+-%#o5f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -61,7 +61,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = 'saham.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
     {
@@ -79,7 +79,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'saham.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
