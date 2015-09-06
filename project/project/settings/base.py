@@ -112,10 +112,3 @@ USE_TZ = True
 
 
 STATIC_URL = '/static/'
-
-# create dynamic settings
-try:
-    from local import *
-except ImportError as e:
-    if 'local' not in str(e):
-        raise e
